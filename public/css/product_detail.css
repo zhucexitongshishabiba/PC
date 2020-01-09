@@ -1,0 +1,162 @@
+*{margin:0;padding:0;}
+body{
+  width:100%;
+  background: #f5f5f5;
+}
+#head{
+  background-color:#fff;
+  width:100%;
+  height:120px;
+  border-bottom:2px;
+  box-shadow: 0 0 4px 0 rgba(0,0,0,0.2);
+  box-sizing:border-box;
+  text-align: center;
+}
+.cart{
+  box-sizing:border-box;
+  width:940px;
+  background: #fff;
+  padding:20px;
+  margin:100px auto;
+  border:1px solid #E8E8E8;
+  display:table;
+  clear: both;
+  content:"";
+}
+.lf-pic{
+  float:left;
+  display:table;
+  clear:both;
+  content:"";
+  position: relative;
+}
+.tp-pic{
+  display:table;
+  clear:both;
+  content:"";
+}
+.tp-pic>img{
+  width:400px;
+  height:400px;
+  float:left;
+}
+.bt-pic>li>img{
+  width:50px;
+  width:50px;
+  cursor: pointer;
+  padding:5px;
+}
+.bt-pic>li{
+  list-style: none;
+  float:left;
+  box-sizing: border-box;
+}
+.rg-info{
+  float:right;
+  width:460px;
+  box-sizing:border-box;
+}
+.rg-content>h3{
+  box-sizing: border-box;
+  float:right;
+  font-size: 16px;
+  font-weight: 700;
+}
+.rg-content{
+  display:table;
+  clear:both;
+  content:"";
+}
+.rg-price{
+  margin-top:50px;
+  padding: 10px;
+  background-color: #FFF2E8;
+}
+.font{
+  width: 60px;
+  color: #6c6c6c;
+}
+.price{
+  margin-left:60px;
+  font-size: 24px;
+  font-weight: 700;
+  font-family: Tahoma,Arial,Helvetica,sans-serif;
+  color: #f40;
+}
+.rg-count{
+  margin-top:50px;
+  padding: 10px;
+}
+.rg-count>a{
+  display:inline-block;
+  text-decoration: none;
+  border: 1px solid #ccc;
+  width: 26px;
+  height: 26px;
+  line-height: 26px;
+  text-align: center;
+  background-color: #ededed;
+  font-family: tb-iconfont !important;
+  font-size: 12px;
+  font-style: normal;
+}
+.reduce{
+  margin-left:60px;
+}
+.rg-count>input{
+  margin: 0;
+  padding: 0;
+  width: 48px;
+  height: 26px;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  color: #666;
+  border: 1px solid #CCC;
+  outline: 0;
+  background: #FFF;
+}
+.rg-buy{
+  margin-top:50px;
+  padding: 10px;
+}
+.buy{
+  width: 180px;
+  color: #FFF;
+  border-color: #F40;
+  background: #F40;
+  cursor: pointer;
+  height: 38px;
+  text-align: center;
+  font-family: "Hiragino Sans GB","microsoft yahei",sans-serif;
+  font-size: 16px;
+  line-height: 38px;
+  border: 1px solid;
+}
+/* 放大镜 */
+.Szoom{
+  width:200px;
+  height:200px;
+  opacity: 0.5;
+  background: lightblue;
+  position: absolute;
+  left:0;
+  top:0;
+  display:none;
+}
+.Lzoom{
+  width:400px;
+  height:400px;
+  position: absolute;
+  left:400px;
+  top:0;
+  overflow: hidden;
+  display:none;
+}
+.Lzoom>img{
+  width:800px;
+  height:800px;
+  position: absolute;
+  left:0;
+  right:0;
+}
